@@ -1,0 +1,171 @@
+body {
+    text-align: center;
+}
+
+/* Selectores múltiples, aplica las propiedades a todos los selecotres indicados*/
+h1, h2, h3, body {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar Styling */
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+
+.navbar-brand-aux {
+    font-size: 2.25rem;
+}
+
+.navbar-item {
+    padding: 0px 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.nav-link-aux {
+    padding: 0 18px;
+}
+
+#title {
+    color: #fff;
+    text-align: left;
+}
+
+/* Selector jerárquico, solo afecta a la clase dentro */
+/* Parent, child */
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+  
+/* Download buttons */
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+
+.title-img {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+/* Solo aplica las clases si se cumple la condición */
+@media (max-width: 1028px) {
+
+    #title {
+         text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+}
+
+/* Features */
+
+#features {
+    padding: 7% 15%;
+    position: relative;
+    background-color: #fff;
+}
+
+.features-icons {
+    color:lightcoral;
+    margin-bottom: 18px;
+}
+
+.features-icons:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+/* Press */
+
+#press {
+    padding-bottom: 3%;
+}
+
+.press-image {
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+
+/* Call to Action */
+
+#cta {
+    text-align: center;
+    padding: 7% 15%;    
+}
+
+.cta-heading {
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+/* Footer Secton */
+
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.footer-icon {
+    margin: 0px 10px 10px;
+}
+
+/* Pricing section */
+
+#pricing {
+    text-align: center;
+    padding: 5% 5%;
+  }
+
+.pricing-text {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.cards-pricing {
+    width: 90%;
+    display: inline-block;
+    line-height: 1;
+    margin-top: 5%;
+}
+
+/* General Sections */
+.colored-section {
+    color: #fff;
+    background-color: #ff4c68;
+}
+
+.white-secion {
+    color: #444444;
+    background-color: #fff;
+}
